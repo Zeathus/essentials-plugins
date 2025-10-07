@@ -33,3 +33,11 @@ def pbUpdateSigns
   pbUnloadSigns
   pbLoadSigns
 end
+
+# Update signs on map change
+EventHandlers.add(:on_map_or_spriteset_change, :update_proximity_signs,
+  proc { |scene, map_changed|
+    next if !scene || !scene.spriteset
+    pbUpdateSigns
+  }
+)
