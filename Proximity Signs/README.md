@@ -1,5 +1,6 @@
 # Proximity Signs
 This plugin provides functionality to add comments to events that cause them to show floating text boxes when the player is near them. Intended for use with signs so the player can read them without interacting with them.
+![Image of how the signs look ingame](https://i.imgur.com/r3vPkgq.png)
 
 # Configuration
 The plugin contains a `Settings.rb` file that can be edited to customize the plugin.
