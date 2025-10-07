@@ -1,5 +1,5 @@
 # Proximity Signs
-This plugin provides functionality to add comments to events that cause them to show floating text boxes when the player is near them. Intended for use with signs so the player can read them without interacting with them.
+This plugin provides functionality to add comments to events that cause them to show floating text boxes when the player is near them. Intended for use with signs so the player can read them without interacting with them. The signs will fade in when you get close to them, and fade out when you walk away.
 ![Image of how the signs look ingame](https://i.imgur.com/r3vPkgq.png)
 
 # Configuration
