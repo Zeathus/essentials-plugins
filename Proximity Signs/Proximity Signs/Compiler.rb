@@ -9,10 +9,10 @@ module Compiler
 
   def main
     sign_main
-    pbLoadSignComments(false)
+    pbLoadSignComments
   end
 
-  def pbLoadSignComments(silent = false)
+  def pbLoadSignComments(verbose = false)
     mapdata = MapData.new
     t = Time.now.to_i
     Graphics.update
@@ -21,7 +21,7 @@ module Compiler
       $Signs[id] = []
       map=mapdata.getMap(id)
       next if !map || !mapdata.mapinfos[id]
-      if !silent
+      if verbose
         echoln _INTL("Processing proximity signs on map {1} ({2})",id,mapdata.mapinfos[id].name)
       end
       for key in map.events.keys
