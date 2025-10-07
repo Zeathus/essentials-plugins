@@ -1,5 +1,5 @@
 # Swamp Terrain Tag
-Adds a terrain tag for swamp-like behavior, causing the player to slightly sink and be covered from the bottom.
+Adds a terrain tag for swamp-like behavior, causing the player to slightly sink and be covered from the bottom. The tags also prevent the player from running.
 ![Image of how the swamp tiles look ingame](https://i.imgur.com/v4x1Ae9.png)
 
 # Configuration
